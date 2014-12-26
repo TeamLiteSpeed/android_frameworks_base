@@ -20,6 +20,7 @@ package com.android.server.power;
 
 import android.app.ActivityManagerNative;
 import android.app.AlertDialog;
+import android.app.PacBusyDialog;
 import android.app.Dialog;
 import android.app.IActivityManager;
 import android.app.KeyguardManager;
@@ -348,7 +349,7 @@ public final class ShutdownThread extends Thread {
         if (!checkAnimationFileExist()) {
             // throw up an indeterminate system dialog to indicate radio is
             // shutting down.
-            ProgressDialog pd = new ProgressDialog(context);
+        PacBusyDialog pd = new PacBusyDialog(context, android.R.style.Theme_Translucent_NoTitleBar);
             if (mReboot) {
                 pd.setTitle(context.getText(com.android.internal.R.string.reboot_title));
                 pd.setMessage(context.getText(com.android.internal.R.string.reboot_progress));
@@ -356,9 +357,13 @@ public final class ShutdownThread extends Thread {
                 pd.setTitle(context.getText(com.android.internal.R.string.power_off));
                 pd.setMessage(context.getText(com.android.internal.R.string.shutdown_progress));
             }
-            pd.setIndeterminate(true);
-            pd.setCancelable(false);
+        //pd.setIndeterminate(true);
             pd.getWindow().setType(WindowManager.LayoutParams.TYPE_KEYGUARD_DIALOG);
+  pd.getWindow().addFlags(
+                 WindowManager.LayoutParams.FLAG_DIM_BEHIND
+                 | WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN);
+        pd.getWindow().setDimAmount(1);
+        pd.setCancelable(false);
 
             pd.show();
         }
