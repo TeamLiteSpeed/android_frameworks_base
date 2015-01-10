@@ -336,7 +336,7 @@ class GlobalActions implements DialogInterface.OnDismissListener, DialogInterfac
 
     private final class PowerAction extends SinglePressAction implements LongPressAction {
         private PowerAction() {
-            super(com.android.internal.R.drawable.ic_lock_power_off,
+            super(com.android.internal.R.drawable.ic_lock_power_off_dark,
                 R.string.global_action_power_off);
         }
 
