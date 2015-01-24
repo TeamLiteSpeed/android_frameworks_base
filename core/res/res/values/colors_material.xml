@@ -16,9 +16,9 @@
 
 <!-- Colors specific to Material themes. -->
 <resources>
-    <color name="background_material_dark">#ff303030</color>
+    <color name="background_material_dark">#ff000000</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <color name="background_floating_material_dark">#ff424242</color>
+    <color name="background_floating_material_dark">#ff000000</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
 
     <color name="primary_material_dark">#ff212121</color>
@@ -58,9 +58,9 @@
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
 
     <!-- TODO: This is 40% alpha on the default accent color. -->
-    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <color name="highlighted_text_material_dark">#66d50000</color>
     <!-- TODO: This is 40% alpha on the default accent color. -->
-    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="highlighted_text_material_light">#66d50000</color>
 
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
@@ -71,8 +71,8 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
 
-    <color name="primary_text_default_material_dark">#ffffffff</color>
-    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="primary_text_default_material_dark">#ffdcdcdc</color>
+    <color name="secondary_text_default_material_dark">#b3c0c0c0</color>
 
     <item name="disabled_alpha_material_light" format="float" type="dimen">0.26</item>
     <item name="disabled_alpha_material_dark" format="float" type="dimen">0.30</item>
@@ -80,12 +80,12 @@
     <!-- Primary & accent colors -->
     <eat-comment />
 
-    <color name="material_deep_teal_200">#ff80cbc4</color>
-    <color name="material_deep_teal_500">#ff009688</color>
+    <color name="material_deep_teal_200">#ffd50000</color>
+    <color name="material_deep_teal_500">#ffd50000</color>
 
-    <color name="material_blue_grey_800">#ff37474f</color>
-    <color name="material_blue_grey_900">#ff263238</color>
-    <color name="material_blue_grey_950">#ff21272b</color>
+    <color name="material_blue_grey_800">#ff161616</color>
+    <color name="material_blue_grey_900">#ff000000</color>
+    <color name="material_blue_grey_950">#ff000000</color>
 
     <!-- Time picker defaults when no theme is set -->
     <eat-comment />
