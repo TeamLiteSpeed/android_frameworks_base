@@ -63,13 +63,13 @@
         android:layout_gravity="start"
         android:orientation="vertical"
         android:elevation="16dp"
-        android:background="@*android:color/white">
+        android:background="@*android:color/black">
 
         <Toolbar
             android:id="@+id/roots_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
-            android:background="?android:attr/colorPrimary"
+            android:background="#000000"
             android:elevation="8dp"
             android:theme="?android:attr/actionBarTheme" />
 
