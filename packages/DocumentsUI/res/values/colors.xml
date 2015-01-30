@@ -18,7 +18,7 @@
     <color name="material_grey_50">#fffafafa</color>
     <color name="material_grey_300">#ffeeeeee</color>
 
-    <color name="item_doc_grid_background">@color/material_grey_950</color>
+    <color name="item_doc_grid_background">#000000</color>
 
     <color name="item_doc_grid_protect_background">#88ffffff</color>
 
