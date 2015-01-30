@@ -68,8 +68,8 @@
     <!-- Text & foreground colors -->
     <eat-comment />
 
-    <color name="primary_text_default_material_light">#de000000</color>
-    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="primary_text_default_material_light">#dec0c0c0</color>
+    <color name="secondary_text_default_material_light">#8ac0c0c0</color>
 
     <color name="primary_text_default_material_dark">#ffdcdcdc</color>
     <color name="secondary_text_default_material_dark">#b3c0c0c0</color>
