@@ -676,6 +676,7 @@ public class VolumePanel extends Handler {
                 @Override
                 public void onClick(View v) {
                     expandVolumePanel();
+                    resetTimeout();
                 }
             });
             final int plusOne = (streamType == AudioSystem.STREAM_BLUETOOTH_SCO ||
