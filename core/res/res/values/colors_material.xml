@@ -71,7 +71,7 @@
     <color name="primary_text_default_material_light">#dec0c0c0</color>
     <color name="secondary_text_default_material_light">#8ac0c0c0</color>
 
-    <color name="primary_text_default_material_dark">#ffdcdcdc</color>
+    <color name="primary_text_default_material_dark">#ffc0c0c0</color>
     <color name="secondary_text_default_material_dark">#b3c0c0c0</color>
 
     <item name="disabled_alpha_material_light" format="float" type="dimen">0.26</item>
