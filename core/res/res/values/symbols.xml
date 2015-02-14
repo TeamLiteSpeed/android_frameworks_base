@@ -2220,11 +2220,7 @@
   <java-symbol type="drawable" name="busy_dlg_animation_25" />
   <java-symbol type="drawable" name="busy_dlg_animation_26" />
   <java-symbol type="drawable" name="busy_dlg_animation_27" />
-  <java-symbol type="drawable" name="busy_dlg_animation_28" />
-  <java-symbol type="drawable" name="busy_dlg_animation_29" />
-  <java-symbol type="drawable" name="busy_dlg_animation_30" />
-  <java-symbol type="drawable" name="busy_dlg_animation_31" />
-  <java-symbol type="drawable" name="busy_dlg_animation_32" />  
+  <java-symbol type="drawable" name="busy_dlg_animation_28" /> 
   <java-symbol type="id" name="busy_dlg_animation" />
   <java-symbol type="id" name="busy_dlg_title" />
   <java-symbol type="layout" name="busy_dlg" />  
