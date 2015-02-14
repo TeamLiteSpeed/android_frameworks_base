@@ -28,10 +28,6 @@
     <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_24" />
     <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_25" />
     <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_26" />
-    <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_27" />
-    <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_28" />
-    <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_29" />
-    <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_30" />
-	<item android:duration="50" android:drawable="@drawable/busy_dlg_animation_31" />
-    <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_32" />	
+        <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_27" />
+    <item android:duration="50" android:drawable="@drawable/busy_dlg_animation_28" />	
 </animation-list>
