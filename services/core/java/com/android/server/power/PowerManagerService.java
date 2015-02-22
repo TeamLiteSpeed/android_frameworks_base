@@ -1461,7 +1461,7 @@ public final class PowerManagerService extends SystemService
         }
 
         // Otherwise wake up!
-        return true;
+        return false;
     }
 
     /**
